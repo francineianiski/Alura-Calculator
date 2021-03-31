@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-certa.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .calculadora {
+    width: 264px;
+    height:360px;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-calc.png');
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+  #question {
+    position: absolute;
+    width: 120px;
+    background-color: transparent;
+    text-align: left;
+    color: rgb(187, 3, 125);
+    margin-top: 40px;
+    margin-left: -60px;
+    left: 50%;
+    z-index: 9998 !important;
+  }
+
+  #answer {
+    position: absolute;
+    font-size:16px;
+    font-weight:bold;
+    top: 420px;
+    left: calc(50% - 69px);
+    width: 145px;
+    text-align:center;
+    color: #FFFFFF;
+  }
+
+  input[type=number] {
+    z-index: 9999 !important;
+    position: absolute;
+    top: 109px;
+    margin-left: 20px;
+    width: 45px;
+    text-align:center;
+    border: none;
+    background: transparent;
+    color: black;
+    font-size:16px;
+  }
